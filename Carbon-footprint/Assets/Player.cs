@@ -5,23 +5,41 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     Rigidbody2D rigid;
-    public float maxSpeed;
-    public float jumpPower;
-    public Animator animator;
+    Animator anim;
+    public float Speed;
+    float h;
+    float v;
+    bool isHorizonMove;
+
+
+    void Awake()
+    {
+        rigid = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+    }
     void Update()
     {
-        //∏ÿ√‚∂ß º”µµ
-        if (Input.GetButtonDown("Horizontal"))
-        {
-            rigid.velocity = new Vector2(rigid.velocity.normalized.x * 0.5f, rigid.velocity.y);
-        }
+        h = Input.GetAxisRaw("Horizontal");
+        v = Input.GetAxisRaw("Vertical");
 
-/*        if (Input.GetButton("Horizontal"))
-        {
-            animator.SetBool("IsWalking", true);
-        }
-        else animator.SetBool("IsWalking", false);
-*/
+        bool hDown = Input.GetButtonDown("Horizontal");
+        bool vDown = Input.GetButtonDown("Vertical");
+        bool hUp = Input.GetButtonUp("Horizontal");
+        bool vUp = Input.GetButtonUp("Vertical");
+
+        if (hDown || vUp)
+            isHorizonMove = true;
+        else if (vDown || hUp)
+            isHorizonMove = false;
+
+        //animation
+        anim.SetInteger("hAxisRaw", (int)h);
+        anim.SetInteger("vAxisRaw", (int)v);
     }
 
+    void FixedUpdate()
+    {
+        Vector2 moveVec = isHorizonMove ? new Vector2(h, 0) : new Vector2(0, v);
+        rigid.velocity = moveVec * Speed;
+    }
 }
