@@ -1,0 +1,308 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 32606 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/user/Documents/GitHub/Carbon-Footprint/Carbon-footprint
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+61180
+Successfully changed project path to: C:/Users/user/Documents/GitHub/Carbon-Footprint/Carbon-footprint
+C:/Users/user/Documents/GitHub/Carbon-Footprint/Carbon-footprint
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24704] Host "[IP] 211.216.167.163 [Port] 0 [Flags] 2 [Guid] 1518652612 [EditorId] 1518652612 [Version] 1048832 [Id] WindowsEditor(7,Beautygirls) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24704] Host "[IP] 211.216.167.163 [Port] 0 [Flags] 2 [Guid] 1518652612 [EditorId] 1518652612 [Version] 1048832 [Id] WindowsEditor(7,Beautygirls) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 47.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/Carbon-Footprint/Carbon-footprint/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.2824
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010553 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 156 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (602ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (464ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (210ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (56ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005472 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\Carbon-Footprint\Carbon-footprint\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\Carbon-Footprint\Carbon-footprint\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.678 seconds
+Domain Reload Profiling:
+	ReloadAssembly (679ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (519ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (30.2 KB). Loaded Objects now: 3629.
+Memory consumption went from 113.0 MB to 112.9 MB.
+Total: 2.121400 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.074600 ms MarkObjects: 1.860900 ms  DeleteObjects: 0.025900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 366188.033892 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_0.asset
+  artifactKey: Guid(2e00748cc4924de42a59e142923a3df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_0.asset using Guid(2e00748cc4924de42a59e142923a3df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4525d0e135d36e7a77b21c6a79210d') in 0.051055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_12.asset
+  artifactKey: Guid(4be8d94c70a357b44b17240ab0021c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_12.asset using Guid(4be8d94c70a357b44b17240ab0021c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b27446a09a5e4ee791059fadf8ed1b5') in 0.004978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_13.asset
+  artifactKey: Guid(9c5fb1582d999bc4b83efb5c4bd7b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_13.asset using Guid(9c5fb1582d999bc4b83efb5c4bd7b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b0fe4db92675de99a476cf14c510f6') in 0.006193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_25.asset
+  artifactKey: Guid(4d9beb44058664246934faa275dafb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_25.asset using Guid(4d9beb44058664246934faa275dafb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcb8d90a6aeaa670d8dd71a85f529ac') in 0.004304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_24.asset
+  artifactKey: Guid(8aa304b3e853f0248a0a03c60f4de4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_24.asset using Guid(8aa304b3e853f0248a0a03c60f4de4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea8ee5179d970d91d693e7db91541e3') in 0.004253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_29.asset
+  artifactKey: Guid(e706b680d839ef84e932174b016e9598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_29.asset using Guid(e706b680d839ef84e932174b016e9598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc247b008ea38f2cf6264462affdefd') in 0.005673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_26.asset
+  artifactKey: Guid(2074032077ed0f24da0353a406726e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_26.asset using Guid(2074032077ed0f24da0353a406726e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565828acac3709cef4b0005844ba5bc2') in 0.004909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_10.asset
+  artifactKey: Guid(15eeb83986583c54b99f23d0b1d5b342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_10.asset using Guid(15eeb83986583c54b99f23d0b1d5b342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdf72eea23c736db93d17a8370418d5') in 0.004439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_32.asset
+  artifactKey: Guid(770daa95abe070045950c08ee0afadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_32.asset using Guid(770daa95abe070045950c08ee0afadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfd3d4082643a687ac54c27710b4cc0') in 0.004194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_7.asset
+  artifactKey: Guid(7ce0e64acc4968343b4d0742ee6963a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_7.asset using Guid(7ce0e64acc4968343b4d0742ee6963a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319a4fe67898af2fbcb4f4b9ee3f0dc1') in 0.005537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_17.asset
+  artifactKey: Guid(f73c8ba870a97f54fba502193d31f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_17.asset using Guid(f73c8ba870a97f54fba502193d31f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35adfaa78f38032682a42920ff880f3') in 0.005232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_22.asset
+  artifactKey: Guid(465893449d5293b4eb51f98fe4b64102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_22.asset using Guid(465893449d5293b4eb51f98fe4b64102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ced6e1783f970f1aed1b28adfd21ba7') in 0.006025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_16.asset
+  artifactKey: Guid(9adc64847915fb44dbb13ed54821f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_16.asset using Guid(9adc64847915fb44dbb13ed54821f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b593ca62aece4fa619704c9e25f7e8ca') in 0.004651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_6.asset
+  artifactKey: Guid(2bde7eb56ca3a194a9f9f0120251c1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_6.asset using Guid(2bde7eb56ca3a194a9f9f0120251c1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4089c6823d0310041bbbcdc9ff96068e') in 0.004861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.369347 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_33.asset
+  artifactKey: Guid(ff83bcee22058b444908a98277d998c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_33.asset using Guid(ff83bcee22058b444908a98277d998c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4deabeebe3b490ccbd3f320df87fca') in 0.004590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_39.asset
+  artifactKey: Guid(15dd07e381bfec6488f6da823213e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_39.asset using Guid(15dd07e381bfec6488f6da823213e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc91ace0d3510c30eed1269caa2ef82') in 0.004579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_40.asset
+  artifactKey: Guid(2ac4fa2270a94754983309b20b7796ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_40.asset using Guid(2ac4fa2270a94754983309b20b7796ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78eed03d464a9a7a18dc78e97cc7aca') in 0.006263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_36.asset
+  artifactKey: Guid(08729fe3592aecd4d952bd7f066c45bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_36.asset using Guid(08729fe3592aecd4d952bd7f066c45bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4a682215d6d65e1d7fd06d9bccf3d8') in 0.004331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007702 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_41.asset
+  artifactKey: Guid(592acf73b5ddc6c40a8443a2e182b4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_41.asset using Guid(592acf73b5ddc6c40a8443a2e182b4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0e65bce09e20e819d6c19e95142236') in 0.004642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_43.asset
+  artifactKey: Guid(eef9691b1631014439dae500aba2926f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_43.asset using Guid(eef9691b1631014439dae500aba2926f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfdbe4a37fb3013bcec42b98b18aa7c') in 0.006619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_45.asset
+  artifactKey: Guid(a959b762bdf49ed4ebbf171ad48d89df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Stone Ground/TX Tileset Stone Ground_45.asset using Guid(a959b762bdf49ed4ebbf171ad48d89df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a7843ff8c037b6c3a73411302c43b6') in 0.006659 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
