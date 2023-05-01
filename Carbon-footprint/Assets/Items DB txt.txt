@@ -1,0 +1,3 @@
+Items	Knife	칼날	3	FALSE
+Items	A piece of wood	나무조각	3	FALSE
+Items	A piece of key	열쇠조각	3	FALSE
