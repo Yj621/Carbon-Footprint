@@ -36,7 +36,7 @@ public class InfoPanelController : MonoBehaviour
 
     public void OnReadyButtonClicked()
     {
-        SceneManager.LoadScene("GamePlaySene");
+        SceneManager.LoadScene("GamePalyScene2");
         //여기 오타났음...ㅎㅎ^,^;
     }
 }
