@@ -15,7 +15,7 @@ C:/Users/user/Documents/GitHub/Carbon-Footprint/Carbon-footprint
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49485
+53040
 Successfully changed project path to: C:/Users/user/Documents/GitHub/Carbon-Footprint/Carbon-footprint
 C:/Users/user/Documents/GitHub/Carbon-Footprint/Carbon-footprint
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/user/Documents/GitHub/Carbon-Footprint/Carbon-footprint
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10520] Host "[IP] 211.216.167.163 [Port] 0 [Flags] 2 [Guid] 3087085226 [EditorId] 3087085226 [Version] 1048832 [Id] WindowsEditor(7,Beautygirls) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14564] Host "[IP] 220.127.40.70 [Port] 0 [Flags] 2 [Guid] 3432078053 [EditorId] 3432078053 [Version] 1048832 [Id] WindowsEditor(7,Beautygirls) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10520] Host "[IP] 211.216.167.163 [Port] 0 [Flags] 2 [Guid] 3087085226 [EditorId] 3087085226 [Version] 1048832 [Id] WindowsEditor(7,Beautygirls) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14564] Host "[IP] 220.127.40.70 [Port] 0 [Flags] 2 [Guid] 3432078053 [EditorId] 3432078053 [Version] 1048832 [Id] WindowsEditor(7,Beautygirls) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 50.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011838 seconds.
+Registered in 0.013852 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 174 ms
+Android Extension - Scanning For ADB Devices 191 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.684 seconds
+- Completed reload, in  0.778 seconds
 Domain Reload Profiling:
-	ReloadAssembly (684ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (778ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (528ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (82ms)
+			SetupTypeCache (96ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (382ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (427ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (237ms)
+				InitializePlatformSupportModulesInManaged (261ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
+				RefreshPlugins (58ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (63ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007347 seconds.
+Registered in 0.006222 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\Carbon-Footprint\Carbon-footprint\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\GitHub\Carbon-Footprint\Carbon-footprint\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -122,46 +122,46 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.766 seconds
+- Completed reload, in  0.916 seconds
 Domain Reload Profiling:
-	ReloadAssembly (767ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (917ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (583ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (706ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
+			SetupTypeCache (238ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (261ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (311ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
+				InitializePlatformSupportModulesInManaged (29ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (30.2 KB). Loaded Objects now: 3629.
-Memory consumption went from 113.1 MB to 113.0 MB.
-Total: 2.067900 ms (FindLiveObjects: 0.167600 ms CreateObjectMapping: 0.074100 ms MarkObjects: 1.802900 ms  DeleteObjects: 0.022500 ms)
+Unloading 3161 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (56.2 KB). Loaded Objects now: 3628.
+Memory consumption went from 115.3 MB to 115.2 MB.
+Total: 2.527600 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.089800 ms MarkObjects: 2.177700 ms  DeleteObjects: 0.069300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -174,3 +174,211 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 913184.954556 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_1.asset
+  artifactKey: Guid(24c47a81e0ddf1e419c63c2be9b5d498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_1.asset using Guid(24c47a81e0ddf1e419c63c2be9b5d498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca1023f663ae530d897df9915747c0b') in 0.061395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_3.asset
+  artifactKey: Guid(361739764071a7c46b748219071f0108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_3.asset using Guid(361739764071a7c46b748219071f0108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f05e31f703f6388f8716f0b0898e1e3') in 0.005200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_63.asset
+  artifactKey: Guid(c27ca79a43000fc40976803a1a7da0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_63.asset using Guid(c27ca79a43000fc40976803a1a7da0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a9587fe3691f03d931c9d8404f920a') in 0.009156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_70.asset
+  artifactKey: Guid(c4a329be6ebd18843af73c350cd199c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_70.asset using Guid(c4a329be6ebd18843af73c350cd199c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eea2a3620825380316eb4c1a913d52a') in 0.004542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_24.asset
+  artifactKey: Guid(b64d1264aee4cfd46892b03988b58b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_24.asset using Guid(b64d1264aee4cfd46892b03988b58b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cd7922a324786c2ba6bb5aee4b4fe1') in 0.005080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_29.asset
+  artifactKey: Guid(19c710548ceb21e41a757d72ce8f4ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_29.asset using Guid(19c710548ceb21e41a757d72ce8f4ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd793dd6320b8e918866562f63ca4c5') in 0.005091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_9.asset
+  artifactKey: Guid(1384aad1541757f49aaec17732b74596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_9.asset using Guid(1384aad1541757f49aaec17732b74596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4088f8e86f777f662a7fe2196c2204c') in 0.005027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_65.asset
+  artifactKey: Guid(bacfb18bfed550a4eb04eccfbabf39cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_65.asset using Guid(bacfb18bfed550a4eb04eccfbabf39cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd267cdb1cdb39b6f4a787117649c5fe') in 0.005435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_31.asset
+  artifactKey: Guid(c33ee8b1d981ff542a5d1f11d9507a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_31.asset using Guid(c33ee8b1d981ff542a5d1f11d9507a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d751ed22f5f553819f966ebd6b2e99') in 0.005100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_57.asset
+  artifactKey: Guid(ebbb246c93b3c8e4980cbfcb0b5533ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_57.asset using Guid(ebbb246c93b3c8e4980cbfcb0b5533ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4ca77e3f7885173504d05acd6866fd') in 0.004676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_13.asset
+  artifactKey: Guid(dac5b0d75837ada45b0022d618cd09e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_13.asset using Guid(dac5b0d75837ada45b0022d618cd09e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17521aff3ea5a5eb4a135e125e31098') in 0.004704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_7.asset
+  artifactKey: Guid(c5e1afb2ca699c84d9762a5925fa717c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_7.asset using Guid(c5e1afb2ca699c84d9762a5925fa717c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d673fb5e4087d333af64490dadc285') in 0.005038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_26.asset
+  artifactKey: Guid(beb6a31ffda33724b90937d78b1eefed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_26.asset using Guid(beb6a31ffda33724b90937d78b1eefed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea235853a0299657d91ebc91d411bba5') in 0.005044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_17.asset
+  artifactKey: Guid(c8f5bc0dc0001a64c8f6d1a2f853aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_17.asset using Guid(c8f5bc0dc0001a64c8f6d1a2f853aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3c307ce279dbc34acfe874baa96c2d') in 0.005644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_34.asset
+  artifactKey: Guid(314bb3958af67264aae0d86c25c9a113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_34.asset using Guid(314bb3958af67264aae0d86c25c9a113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c680bebcc098c0faffb95b806f3b833') in 0.004492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_44.asset
+  artifactKey: Guid(de7e87771883e184991f43738a35b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_44.asset using Guid(de7e87771883e184991f43738a35b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779360898b44dbb3590af9207be745bd') in 0.005420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_27.asset
+  artifactKey: Guid(224144f22c07c8947a9a2ceae279eaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_27.asset using Guid(224144f22c07c8947a9a2ceae279eaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a32060ae0c3b9ab067a6224a500166f') in 0.004368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_36.asset
+  artifactKey: Guid(89202d46f47af8648b06eb8aa1a26292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_36.asset using Guid(89202d46f47af8648b06eb8aa1a26292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c2add323efdcd8987a7a511fc28155') in 0.006147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_54.asset
+  artifactKey: Guid(47af6b3f8bc60f74cb3ecbecc3e6c8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_54.asset using Guid(47af6b3f8bc60f74cb3ecbecc3e6c8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29635d448ac28ed67d98c7735fec1aa6') in 0.005330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_22.asset
+  artifactKey: Guid(98fb29fa68a67594daa86759d46487a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_22.asset using Guid(98fb29fa68a67594daa86759d46487a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f9109818eefa043b68fdc5693303e3') in 0.004733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_5.asset
+  artifactKey: Guid(b7702f0b6b6e4c741bcb60c9d3dc37ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_5.asset using Guid(b7702f0b6b6e4c741bcb60c9d3dc37ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362ca44530826614982f063014feabac') in 0.004948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_6.asset
+  artifactKey: Guid(9a5ac843ba0b8794c8d6b2eb33e1e048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_6.asset using Guid(9a5ac843ba0b8794c8d6b2eb33e1e048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c500c5f59f7c69560135dd223b8671e6') in 0.005599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_12.asset
+  artifactKey: Guid(0c53fd0bad33aac4997109b04c4dc6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_12.asset using Guid(0c53fd0bad33aac4997109b04c4dc6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d136258ae0d7abfbf79587791b04976') in 0.004445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_41.asset
+  artifactKey: Guid(beb40039f6d8e0b4eba1b3c43118e6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_41.asset using Guid(beb40039f6d8e0b4eba1b3c43118e6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c6569a26ce3560bac9be3c60d13d4d') in 0.004843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_71.asset
+  artifactKey: Guid(5bd379e1ca6094847894997349b5f5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_71.asset using Guid(5bd379e1ca6094847894997349b5f5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf9509a381bd89d4d8baf046b942ed5') in 0.004600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_19.asset
+  artifactKey: Guid(af2fa2d099627cd45adcae5ab058f074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_19.asset using Guid(af2fa2d099627cd45adcae5ab058f074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb94c649e3f416a9ca46ecd1a6dd277') in 0.004236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_15.asset
+  artifactKey: Guid(a7def9ac5a54a7e4391947a56de69c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_15.asset using Guid(a7def9ac5a54a7e4391947a56de69c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b8a2d0f15d244edf1ea802f92760cb') in 0.005449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_66.asset
+  artifactKey: Guid(7415f2275e55a5740be197b5ae14d61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_66.asset using Guid(7415f2275e55a5740be197b5ae14d61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154aa795564e0f5a4330239e54819895') in 0.005364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_46.asset
+  artifactKey: Guid(687ce187a6d880e41a4f2ebf0131c29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_46.asset using Guid(687ce187a6d880e41a4f2ebf0131c29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3965e0ca35ff70d378e78582809b76') in 0.005380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_11.asset
+  artifactKey: Guid(36a41b9f84d537a4abafc7d45941b266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_11.asset using Guid(36a41b9f84d537a4abafc7d45941b266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d5f7ff4730831f13e546458eddcc68') in 0.005162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_53.asset
+  artifactKey: Guid(6f378d259060dfc4195094d31a48f7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_53.asset using Guid(6f378d259060dfc4195094d31a48f7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c153bc93678f8ae070a23e986c7af183') in 0.005106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_37.asset
+  artifactKey: Guid(9f195b495e237ca4bb0208ff2e889172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_37.asset using Guid(9f195b495e237ca4bb0208ff2e889172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bfe1635e4cf00be066fa560b89340a') in 0.005092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_67.asset
+  artifactKey: Guid(6c63399ff3a7c7449a04a42cf569f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_67.asset using Guid(6c63399ff3a7c7449a04a42cf569f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c237ed6f9b5f1ea2d41547c1082808f') in 0.004686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/RF Castle/mainlevbuild_28.asset
+  artifactKey: Guid(ae3b3fa414cae5e40a9f4331a64329d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RF Castle/mainlevbuild_28.asset using Guid(ae3b3fa414cae5e40a9f4331a64329d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b531d3ec73e127af78d7416791ff8a45') in 0.004430 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

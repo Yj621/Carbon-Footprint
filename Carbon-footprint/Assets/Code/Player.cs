@@ -27,14 +27,26 @@ public class Player : MonoBehaviour
         bool hUp = Input.GetButtonUp("Horizontal");
         bool vUp = Input.GetButtonUp("Vertical");
 
-        if (hDown || vUp)
-            isHorizonMove = true;
-        else if (vDown || hUp)
+        //키씹힘방지
+        if (hDown)
+            isHorizonMove = true; 
+        else if (vDown)
             isHorizonMove = false;
+        else if(hUp || vUp)
+            isHorizonMove = h !=0;
 
-        //animation
-        anim.SetInteger("hAxisRaw", (int)h);
-        anim.SetInteger("vAxisRaw", (int)v);
+        //isChange의 값은 키가 바뀌었을때를 의미
+        if(anim.GetInteger("hAxisRaw") != h){
+            anim.SetBool("isChange",true);
+            anim.SetInteger("hAxisRaw", (int)h);
+        }
+        else if(anim.GetInteger("vAxisRaw") != v){
+            anim.SetBool("isChange",true);
+            anim.SetInteger("vAxisRaw", (int)v);
+        }
+        else{
+            anim.SetBool("isChange",false );
+        }
     }
 
     void FixedUpdate()
